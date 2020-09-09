@@ -1,0 +1,69 @@
+
+-
+<!DOCTYPE html>
+<html>
+<title>Our Journey</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+​
+<div class="w3-container">
+  <h2></h2>
+  <p></p>
+</div>
+​
+<div class="w3-row-padding">
+  <div class="w3-container w3-third">
+    <img src="ST1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third">
+    <img src="ST2.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third">
+    <img src="ST3.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST5.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST6.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST7.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST8.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST9.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+     <div class="w3-container w3-third">
+    <img src="ST10.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+    
+</div>
+​
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+​<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-down:7px;font-family:cursive;">Copyright © 2020 chakarmani - All Rights Reserved. Design & Developed by Vinaya Kajrolkar</div>         
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
